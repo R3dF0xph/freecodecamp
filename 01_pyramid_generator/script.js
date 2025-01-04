@@ -20,4 +20,7 @@ console.log(age);
 //step 14
 let count = 8;
 console.log(count + 1);
+// step 19 array
+let rows = ["Jada", "Stevens", "TheBest"];
+console.log(rows[0]);
 

@@ -27,8 +27,9 @@ rows[rows.length - 1] = 10;
 //method push
 rows.push("freeCodeCamp");
 console.log(rows);
-
-
+//step 27 method pop() - t removes the last element from an array and returns that element.
+let popped = rows.pop();
+console.log(popped);
 //let cities = ["London", "New York", "Mumbai"];
 //console.log(cities);
 //cities[cities.length - 1] = "Mexico City";

@@ -3,7 +3,7 @@
 //The program will then generate a pyramid based on those inputs.
 
 // step 1-12
-const character = "Hello";
+const character = "#";
 //console.log(character);
 //character = "World";
 //console.log(character);
@@ -37,3 +37,23 @@ const rows = [];
 //console.log(cities);
 //cities[cities.length - 1] = "Mexico City";
 //console.log(cities);
+//step 47 add function
+function padRow(name) {
+    return name;
+}
+const call = padRow("Ivan");
+console.log(call);
+//step 33 loop for
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i + 1));
+    //console.log(i);
+}
+
+let result = "";
+
+
+for (const row of rows) {
+    result = result + row + "\n";
+}
+
+console.log(result);

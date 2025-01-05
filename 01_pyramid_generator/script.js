@@ -38,10 +38,13 @@ const rows = [];
 //cities[cities.length - 1] = "Mexico City";
 //console.log(cities);
 //step 47 add function
-function padRow(name) {
-    return name;
+function padRow() {
+    const test = "Testing!";
+    //console.log("This works!");
+    return test;
+    //console.log("This works");
 }
-const call = padRow("Ivan");
+const call = padRow();
 console.log(call);
 //step 33 loop for
 for (let i = 0; i < count; i = i + 1) {

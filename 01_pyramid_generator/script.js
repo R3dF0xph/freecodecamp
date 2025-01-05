@@ -24,6 +24,8 @@ console.log(count + 1);
 let rows = ["Jada", "Stevens", "TheBest"];
 console.log(rows[0]);
 rows[rows.length - 1] = 10;
+//method push
+rows.push("freeCodeCamp");
 console.log(rows);
 
 

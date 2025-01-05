@@ -48,9 +48,18 @@ function padRow(rowNumber, rowCount) {
 //const call = padRow();
 //console.log(call);
 //step 33 loop for
-for (let i = 0; i < count; i = i + 1) {
-    rows.push(padRow(i + 1, count));
+//TODO use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+    rows.push(padRow(i, count));
     //console.log(i);
+}*/
+
+if ("") {
+    console.log("Condition is true");
+} else if (5 > 10) {
+    console.log("5 is less than 10");
+} else {
+    console.log("This is the else block");
 }
 
 let result = "";

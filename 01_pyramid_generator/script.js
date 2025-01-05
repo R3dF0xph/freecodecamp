@@ -4,32 +4,35 @@
 
 // step 1-12
 let character = "Hello";
-console.log(character);
-character = "World";
-console.log(character);
-let secondCharacter;
-secondCharacter = character;
-console.log(secondCharacter);
+//console.log(character);
+//character = "World";
+//console.log(character);
+//let secondCharacter;
+//secondCharacter = character;
+//console.log(secondCharacter);
 
 // step 13
-let profession = "teacher";
-let age;
-console.log(profession);
-console.log(age);
+//let profession = "teacher";
+//let age;
+//console.log(profession);
+//console.log(age);
 
 //step 14
 let count = 8;
-console.log(count + 1);
+//console.log(count + 1);
 // step 19 array
-let rows = ["Jada", "Stevens", "TheBest"];
-console.log(rows[0]);
-rows[rows.length - 1] = 10;
+let rows = [];
+//console.log(rows[0]);
+//rows[rows.length - 1] = 10;
 //method push
-rows.push("freeCodeCamp");
-console.log(rows);
+//rows.push("freeCodeCamp");
+// step 28
+//let pushed = rows.push();
+//console.log(pushed);
+//console.log(rows);
 //step 27 method pop() - t removes the last element from an array and returns that element.
-let popped = rows.pop();
-console.log(popped);
+//let popped = rows.pop();
+//console.log(popped);
 //let cities = ["London", "New York", "Mumbai"];
 //console.log(cities);
 //cities[cities.length - 1] = "Mexico City";

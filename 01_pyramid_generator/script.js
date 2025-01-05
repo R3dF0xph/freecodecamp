@@ -38,17 +38,18 @@ const rows = [];
 //cities[cities.length - 1] = "Mexico City";
 //console.log(cities);
 //step 47 add function
-function padRow() {
-    const test = "Testing!";
+function padRow(rowNumber, rowCount) {
+    //const test = "Testing!";
     //console.log("This works!");
-    return test;
+    //return test;
     //console.log("This works");
+    return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 }
-const call = padRow();
-console.log(call);
+//const call = padRow();
+//console.log(call);
 //step 33 loop for
 for (let i = 0; i < count; i = i + 1) {
-    rows.push(character.repeat(i + 1));
+    rows.push(padRow(i + 1, count));
     //console.log(i);
 }
 

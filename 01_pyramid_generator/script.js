@@ -62,9 +62,9 @@ if ("") {
     console.log("This is the else block");
 }
 */
-let continueLoop = false;
+
 let done = 0;
-while (done !== count) {
+while (done < count) {
     done++;
     rows.push(padRow(done, count));
 }

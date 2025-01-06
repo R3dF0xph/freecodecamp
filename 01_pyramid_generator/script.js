@@ -53,7 +53,7 @@ function padRow(rowNumber, rowCount) {
     rows.push(padRow(i, count));
     //console.log(i);
 }*/
-
+/* test of else if
 if ("") {
     console.log("Condition is true");
 } else if (5 > 10) {
@@ -61,7 +61,12 @@ if ("") {
 } else {
     console.log("This is the else block");
 }
-
+*/
+let continueLoop = false;
+let done = 0;
+while (continueLoop) {
+    
+}
 let result = "";
 
 

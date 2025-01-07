@@ -22,6 +22,7 @@ const count = 8;
 //console.log(count + 1);
 // step 19 array
 const rows = [];
+let inverted = true;
 //console.log(rows[0]);
 //rows[rows.length - 1] = 10;
 //method push
@@ -49,10 +50,17 @@ function padRow(rowNumber, rowCount) {
 //console.log(call);
 //step 33 loop for
 //TODO use a different type of loop
-/*for (let i = 1; i <= count; i++) {
-    rows.push(padRow(i, count));
+for (let i = 1; i <= count; i++) {
+    /*add new row to end of array
+    rows.push(padRow(i, count));*/
+    if (inverted) {
+        rows.unshift(padRow(i, count));
+    } else {
+        rows.push(padRow(i, count));
+    }
+    
     //console.log(i);
-}*/
+}
 /* test of else if
 if ("") {
     console.log("Condition is true");

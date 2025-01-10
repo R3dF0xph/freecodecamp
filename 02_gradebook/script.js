@@ -14,7 +14,17 @@ function getAverage(scores) {
     return sum / scores.length;
   
   }
-  
+function hasPassingGrade(score) {
+  let pas = getGrade(score);
+  if (pas === "F") {
+    return false;
+  } else {
+    return true;
+  }
+}
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));  
   //console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
   //console.log(getAverage([45, 87, 98, 100, 86, 94, 67, 88, 94, 95]));
 

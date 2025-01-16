@@ -5,4 +5,6 @@ with arrays, strings, objects, functions, loops,
 if/else statements, and more.*/
 
 let xp = 0;
+let health = 100;
+lt gold = 50;
 

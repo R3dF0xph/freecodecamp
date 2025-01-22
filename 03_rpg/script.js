@@ -62,7 +62,7 @@ function goTown() {
 
 function goStore() {
     //console.log("Going to store.");
-    
+    update(locations[1]);
 }
 
 function goCave() {

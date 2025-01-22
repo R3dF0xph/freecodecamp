@@ -21,11 +21,15 @@ const goldText = document.querySelector("#goldText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
-const locations = [];
-const cat = {
+const locations = [
+    {
+        name: "town square"
+    }
+];
+/*const cat = {
     name: "Whiskers",
     "Number of legs": 4
-};
+};*/
 // dot notation
 //console.log(cat.name);
 //bracket notation

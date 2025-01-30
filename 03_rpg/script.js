@@ -185,6 +185,7 @@ function goFight() {
 function attack() {
     text.innerText = "The " + monsters[fighting].name + " attacks.";
     text.innerText += " You attack it with " + weapons[currentWeaponIndex].name + ".";
+    health -= monsters[fighting].level;
 }
 
 function dodge() {

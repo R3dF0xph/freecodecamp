@@ -190,7 +190,9 @@ function attack() {
     healthText.innerText = health;
     monsterHealthText.innerText = monsterHealth;
     if (health <= 0) {
-        localStorage();
+        lose();
+    } else if (monsterHealth <= 0) {
+        defeatMonster();
     }
 }
 

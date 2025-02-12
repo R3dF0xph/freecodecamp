@@ -25,5 +25,7 @@ const darkColorsArr = [
     bgHexCodeSpanElement.innerText = color;
     body.style.background = color;
   }
+  const btn = document.querySelector("#btn");
+  console.log(btn);
   changeBackgroundColor();
   getRandomIndex();

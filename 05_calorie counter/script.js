@@ -5,3 +5,5 @@ the calorie counts of various meals.
 The form will then calculate and display whether the user is 
 in a calorie deficit or surplus.
 */
+
+const calorieCounter = document.getElementById('calorie-counter');
